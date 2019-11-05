@@ -1,0 +1,18 @@
+<div class="toolbar">
+
+   <div class="homeProject">
+
+      <div class="homeIcon">
+         <img src="../../assets/home.png" alt="Home">
+      </div>
+
+      <div class="projectName" *ngIf="projectName; else elseBlock">
+         {{projectName}}
+      </div>
+      <ng-template #elseBlock>
+         <app-create-project-button></app-create-project-button>
+      </ng-template>
+   </div>
+
+   <app-user-control></app-user-control>
+</div>

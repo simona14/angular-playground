@@ -1,0 +1,27 @@
+.createProjectWrapper {
+   /* display: flex; */
+   /* justify-content: space-between;
+   align-items: center; */
+   border: 3px solid #655AF3;
+   box-sizing: border-box;
+   border-radius: 8px;
+   padding: 0 .5em;
+}
+
+.createProjectWrapper > a {
+   display: flex;
+}
+
+.createProjectWrapper img {
+   width: 25px;
+   /* padding: .5em 0; */
+padding: 0 .5em;   
+}
+
+.createProjectWrapper p {
+
+}
+
+/* 1. remove the underline from the link
+2. add font - roboto
+ */
