@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 .toolbar {
    display: flex;
    /* position: fixed; */
@@ -7,11 +8,13 @@
    border-radius: 10px;
    padding: .5em 1em;
    margin: 1em;
-   }
+   font-family: 'Roboto', sans-serif;
+   font-weight: bold;
+}
 
-.toolbar >* {
+.toolbar>* {
    /* margin: .5em 1em; */
-border-color: greenyellow;
+   border-color: greenyellow;
 }
 
 .homeIcon {
@@ -20,24 +23,22 @@ border-color: greenyellow;
 
 .homeIcon img {
    width: 45px;
-
 }
 
 .homeProject {
-display: flex;
-justify-content: space-between;
-align-items: center;
-width: 20%;
-
-
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 15%;
+   margin-left: 1em;
 }
 
-.projectName{
+.projectName {
    /* flex-basis: 100%; */
    /* align-self: flex-start; */
    display: none;
 }
 
-.projectName:before{
+.projectName:before {
    content: ">";
 }

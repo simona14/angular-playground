@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserControlComponent implements OnInit {
 
-  private userName = "SimonaUser";
+  private userName = "Username";
   constructor() { }
 
   ngOnInit() {

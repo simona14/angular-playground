@@ -2,26 +2,25 @@
    /* display: flex; */
    /* justify-content: space-between;
    align-items: center; */
-   border: 3px solid #655AF3;
+   border: 1.2px solid #655AF3;
    box-sizing: border-box;
-   border-radius: 8px;
+   border-radius: 6px;
    padding: 0 .5em;
 }
 
 .createProjectWrapper > a {
    display: flex;
+   text-decoration: none;
 }
 
 .createProjectWrapper img {
-   width: 25px;
+   width: 20px;
    /* padding: .5em 0; */
-padding: 0 .5em;   
+   padding: 0 .5em;   
 }
 
-.createProjectWrapper p {
-
+.createProjectWrapper span {
+   padding: .5em 0;
+   color: #655AF3;
+   /* margin: 0; */
 }
-
-/* 1. remove the underline from the link
-2. add font - roboto
- */

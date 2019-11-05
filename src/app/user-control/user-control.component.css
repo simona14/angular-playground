@@ -1,23 +1,29 @@
 .userActions {
    display: flex;
    width: 30%;
+   justify-items: center;
+   align-items: center;
 }
 .userDetails {
    display: flex;
    flex-direction: column;
-   justify-items: start;
+   margin-right: .5em;
+   text-align: right;
 }
 
 .userName {
-
+   /* line-height: 1.2em; */
+   font-size: 1.2rem;
 }
 
 .logout {
-line-height: 2em;
+   font-weight: normal !important;
+   font-size: 0.8rem;
+   color: #655AF3;
 }
 
 .thumbnail {
-
+  
 }
 
 .thumbnail > img {
