@@ -35,7 +35,7 @@ width: 20%;
 .projectName{
    /* flex-basis: 100%; */
    /* align-self: flex-start; */
-   /* display: none; */
+   display: none;
 }
 
 .projectName:before{

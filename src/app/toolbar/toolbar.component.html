@@ -6,12 +6,10 @@
          <img src="../../assets/home.png" alt="Home">
       </div>
 
-      <div class="projectName" *ngIf="projectName; else elseBlock">
+      <div class="projectName">
          {{projectName}}
       </div>
-      <ng-template #elseBlock>
-         <app-create-project-button></app-create-project-button>
-      </ng-template>
+      <app-create-project-button></app-create-project-button>
    </div>
 
    <app-user-control></app-user-control>

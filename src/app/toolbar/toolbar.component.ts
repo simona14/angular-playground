@@ -7,7 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  @Input() projectName: string;
+  private projectName = "Project Name!";
 
   constructor() { }
 
