@@ -1,35 +1,46 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-.toolbar {
+/* Check for better approach in angular */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+.toolbarWrapper {
    display: flex;
-   /* position: fixed; */
+   justify-content: center;
+   align-items: center;
+   height: 100px;
+   width: 100%;
+   /* border: 1px solid greenyellow; */
+}
+
+.toolbar {
+   width: 90%;
+   display: flex;
+   position: fixed;
    justify-content: space-between;
    align-items: center;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border-radius: 10px;
    padding: .5em 1em;
-   margin: 1em;
-   font-family: 'Roboto', sans-serif;
+   /* margin: 1em; */
+   font-family: 'Montserrat', sans-serif;
    font-weight: bold;
 }
 
 .toolbar>* {
    /* margin: .5em 1em; */
-   border-color: greenyellow;
 }
 
 .homeIcon {
-   border-color: black;
+   cursor: pointer;
 }
 
 .homeIcon img {
-   width: 45px;
+   width: 40px;
 }
 
 .homeProject {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   width: 15%;
+   width: 18%;
    margin-left: 1em;
 }
 
@@ -41,4 +52,8 @@
 
 .projectName:before {
    content: ">";
+}
+
+app-user-control {
+   width: 18%;
 }

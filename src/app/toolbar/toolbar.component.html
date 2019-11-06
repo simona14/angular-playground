@@ -1,16 +1,19 @@
-<div class="toolbar">
+<div class="toolbarWrapper">
+   <div class="toolbar">
 
-   <div class="homeProject">
+      <div class="homeProject">
 
-      <div class="homeIcon">
-         <img src="../../assets/home.png" alt="Home">
+         <div class="homeIcon">
+               <img [src]="homeIconSource" alt="Home" (click)="navigateHome()">
+         </div>
+
+         <div class="projectName">
+            {{projectName}}
+         </div>
+         <!-- If project name is not defined, have the <div *ngIf = '!projectName'> Routes.something -->
+         <app-create-project-button></app-create-project-button>
       </div>
 
-      <div class="projectName">
-         {{projectName}}
-      </div>
-      <app-create-project-button></app-create-project-button>
+      <app-user-control></app-user-control>
    </div>
-
-   <app-user-control></app-user-control>
 </div>

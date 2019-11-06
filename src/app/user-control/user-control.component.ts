@@ -13,4 +13,11 @@ export class UserControlComponent implements OnInit {
   ngOnInit() {
   }
 
+  logout() {
+    // Implement routing once other components are available and routes are set
+    console.log("Clicked Logout!");
+   }
+
+   userThumbnail = "../../assets/user.png";
+
 }

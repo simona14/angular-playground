@@ -3,12 +3,12 @@
       <div class="userName">
          {{userName}}
       </div>
-      <div class="logout">
-         Logout
+      <div class="logout" (click)="logout()">
+         <span>Logout</span>
       </div>
    </div>
    
    <div class="thumbnail">
-      <img src="../../assets/user.png" alt="">
+      <img [src]="userThumbnail" alt="User Thumbnail">
    </div>
 </div>

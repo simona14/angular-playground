@@ -14,4 +14,10 @@ export class ToolbarComponent implements OnInit {
   ngOnInit() {
   }
 
+  navigateHome() {
+    // Implement routing once other components are available and routes are set
+    console.log("Clicked Home!");
+  }
+  homeIconSource: string = "../../assets/home.svg";
+
 }
